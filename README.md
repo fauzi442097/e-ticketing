@@ -11,7 +11,7 @@ Aplikasi sederhana ini digunakan untuk melakukan pemesanan tiket konser secara O
 -   **[Tailwind](https://tailwindcss.com/)**
 -   **[Daisy UI](https://daisyui.com/)**
 
-## Cofig
+## Config
 
 -   Database: e-ticketing
     Login Admin
@@ -37,7 +37,7 @@ Donwload dependensi yang dibutuhkan oleh ReactJS, dll :
 $ npm run install
 ```
 
-setelah dependensi yang dibutuhkan sudah didownload kemudian lakukan migrasi database
+setelah dependensi yang dibutuhkan sudah didownload kemudian lakukan migrasi database atau restore file database.sql
 
 ```
 $ php artisan migrate --seed
