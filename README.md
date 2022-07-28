@@ -10,6 +10,7 @@ Aplikasi sederhana ini digunakan untuk melakukan pemesanan tiket konser secara O
 -   **[Vite](https://vitejs.dev/)**
 -   **[Tailwind](https://tailwindcss.com/)**
 -   **[Daisy UI](https://daisyui.com/)**
+-   **[MySQL](https://www.mysql.com/)**
 
 ## Config
 
