@@ -1,8 +1,6 @@
 ## E-Ticketing
 
-## Tentang Aplikasi
-
-Aplikasi sederhana digunakan untuk melakukan pemesanan tiket konser secara Online menggunakan Laravel 9
+Aplikasi sederhana ini digunakan untuk melakukan pemesanan tiket konser secara Online.
 
 ## Tools yang Digunakan
 
@@ -13,6 +11,44 @@ Aplikasi sederhana digunakan untuk melakukan pemesanan tiket konser secara Onlin
 -   **[Tailwind](https://tailwindcss.com/)**
 -   **[Daisy UI](https://daisyui.com/)**
 
+## Cofig
+
+-   Database: e-ticketing
+    Login Admin
+-   Username: agenx@gmail.com
+-   Password : 12345678
+
 ## Tahapan Installasi
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Prasyarat
+
+-   Composer
+-   NodeJS
+
+Buka terminal, arahkan pada root directory aplikasi kemudian jalankan perintah berikut:
+
+```
+$ composer update
+```
+
+Donwload dependensi yang dibutuhkan oleh ReactJS, dll :
+
+```
+$ npm run install
+```
+
+setelah dependensi yang dibutuhkan sudah didownload kemudian lakukan migrasi database
+
+```
+$ php artisan migrate --seed
+```
+
+jalankan aplikasi
+
+```
+$ php artisan serve
+```
+
+```
+$ npm run dev
+```
