@@ -97,7 +97,7 @@ class OrderController extends Controller
 
     public function show(Request $request, $orderId)
     {
-        $param['order'] = Order::find($orderId)->with('customer')->first();
+        $param['order'] = Order::where('id', $orderId)->with('customer')->first();
         return response()->json($param);
     }
 

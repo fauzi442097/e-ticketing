@@ -21,7 +21,7 @@ class CheckInController extends Controller
                     // Sudah Checkim
                     $param['message'] = 'No tiket tidak dapat digunakan check in lebih dari satu kali';
                 } else {
-                    $event = Order::find($ticket->order_id)->with(['customer', 'event'])->first();
+                    $event = Order::where('id', $ticket->order_id)->with(['customer', 'event'])->first();
                     // Update status order
                     Ticket::where('no_ticket', $request->ticketNo)->update(['status' => 2]); // Sudah CheckIn
 
